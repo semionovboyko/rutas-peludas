@@ -10,8 +10,8 @@
 
         <!-- Logo -->
         <a href="#inicio" @click.prevent="scrollTo('inicio')" class="flex items-center gap-3 group">
-          <img src="/logo.png" alt="Rutas Peludas Logo" class="h-20 w-20 transition-transform duration-300 group-hover:scale-110" />
-          <span :class="['font-display font-bold text-2xl transition-colors duration-300', scrolled ? 'text-dark' : 'text-white']">
+          <img src="/logo.png" alt="Rutas Peludas Logo" class="h-11 w-11 transition-transform duration-300 group-hover:scale-110" />
+          <span :class="['font-display font-bold text-xl transition-colors duration-300', scrolled ? 'text-dark' : 'text-white']">
             Rutas Peludas
           </span>
         </a>
@@ -23,7 +23,7 @@
               :href="`#${link.id}`"
               @click.prevent="scrollTo(link.id)"
               :class="[
-                'text-base font-medium transition-colors duration-200 hover:text-primary-500',
+                'text-sm font-medium transition-colors duration-200 hover:text-primary-500',
                 scrolled ? 'text-dark' : 'text-white/90'
               ]"
             >
