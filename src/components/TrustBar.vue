@@ -18,7 +18,7 @@
 <script setup>
 const items = [
   { icon: '✅', text: 'Seguro de responsabilidad civil' },
-  { icon: '🏥', text: 'Primeros auxilios veterinarios' },
+  { icon: '🧠', text: 'Psicología canina' },
   { icon: '📍', text: 'Seguimiento GPS en paseos' },
   { icon: '📸', text: 'Fotos y vídeos diarios' },
   { icon: '🤝', text: 'Primera visita gratuita' },

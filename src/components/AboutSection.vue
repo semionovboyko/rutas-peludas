@@ -27,7 +27,7 @@
 
           <!-- Certification badge -->
           <div class="absolute -top-5 -left-5 bg-primary-600 text-white rounded-2xl shadow-xl p-4 text-center">
-            <div class="font-bold text-2xl leading-none">3+</div>
+            <div class="font-bold text-2xl leading-none">5+</div>
             <div class="text-xs mt-1 text-primary-200">años de<br/>experiencia</div>
           </div>
         </div>
@@ -41,10 +41,10 @@
           </h2>
 
           <p class="text-gray-600 leading-relaxed mb-5">
-            Desde pequeña, los perros han sido mi pasión. Llevo más de 3 años dedicada profesionalmente al cuidado canino, y lo que más me motiva es ver la felicidad de cada peludito bajo mi cuidado.
+            Desde pequeña, los perros han sido mi pasión. Llevo más de 5 años dedicada profesionalmente al cuidado canino, y lo que más me motiva es ver la felicidad de cada peludito bajo mi cuidado.
           </p>
           <p class="text-gray-600 leading-relaxed mb-8">
-            Me he formado en primeros auxilios veterinarios, comportamiento canino y técnicas de manejo positivo. Cada perro que cuido recibe atención personalizada, porque entiendo que cada uno es único y especial.
+            Me he formado en psicología canina, comportamiento canino y técnicas de manejo positivo. Cada perro que cuido recibe atención personalizada, porque entiendo que cada uno es único y especial.
           </p>
 
           <!-- Values -->
@@ -102,7 +102,7 @@ const values = [
 ]
 
 const certifications = [
-  'Primeros auxilios veterinarios',
+  'Psicología canina',
   'Comportamiento canino',
   'Manejo en positivo',
   'Seguro de responsabilidad civil',

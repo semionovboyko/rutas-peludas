@@ -68,7 +68,7 @@
 const stats = [
   { value: '200+', label: 'Mascotas cuidadas' },
   { value: '5★', label: 'Valoración media' },
-  { value: '3 años', label: 'De experiencia' },
+  { value: '5 años', label: 'De experiencia' },
 ]
 
 const scrollTo = (id) => {

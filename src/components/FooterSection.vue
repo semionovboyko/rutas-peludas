@@ -11,7 +11,7 @@
             <span class="font-display text-2xl font-bold">Rutas Peludas</span>
           </div>
           <p class="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
-            Cuidado profesional y amoroso para tu perro. Paseos, guardería, baño y visitas a domicilio en Madrid y alrededores.
+            Cuidado profesional y amoroso para tu perro. Paseos, guardería, alojamiento y visitas a domicilio en Valencia y alrededores.
           </p>
           <div class="flex gap-3">
             <a
@@ -54,13 +54,13 @@
           <h3 class="font-semibold text-white mb-4 mt-8 text-sm uppercase tracking-wider">Contacto</h3>
           <ul class="space-y-2">
             <li class="text-gray-400 text-sm flex items-center gap-2">
-              <span>📱</span> +34 600 000 000
+              <span>📱</span> +34 662 03 45 54
             </li>
             <li class="text-gray-400 text-sm flex items-center gap-2">
               <span>✉️</span> hola@rutaspeludas.es
             </li>
             <li class="text-gray-400 text-sm flex items-center gap-2">
-              <span>📍</span> Madrid y alrededores
+              <span>📍</span> Valencia y alrededores
             </li>
           </ul>
         </div>
@@ -89,10 +89,9 @@ const scrollTo = (id) => {
 
 const footerServices = [
   'Paseos individuales',
-  'Guardería a domicilio',
+  'Guardería de día',
   'Alojamiento nocturno',
   'Visitas a domicilio',
-  'Baño y aseo',
   'Socialización y juego',
 ]
 

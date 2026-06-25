@@ -3,6 +3,7 @@
     <NavBar />
     <main>
       <HeroSection />
+      <SummerSection />
 <ServicesSection />
       <AboutSection />
       <GallerySection />
@@ -14,7 +15,7 @@
 
     <!-- Sticky WhatsApp button -->
     <a
-      href="https://wa.me/34600000000?text=Hola%20Camila!%20Me%20gustaría%20información%20sobre%20tus%20servicios%20de%20cuidado%20de%20perros."
+      href="https://wa.me/34662034554?text=Hola%20Camila!%20Me%20gustaría%20información%20sobre%20tus%20servicios%20de%20cuidado%20de%20perros."
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contactar por WhatsApp"
@@ -45,6 +46,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
+import SummerSection from './components/SummerSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import GallerySection from './components/GallerySection.vue'

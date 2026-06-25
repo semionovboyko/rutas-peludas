@@ -44,8 +44,15 @@
             </li>
           </ul>
 
-          <!-- Price -->
-          <div class="flex items-baseline gap-1 mb-5">
+          <!-- Price: multi-tier -->
+          <div v-if="service.prices" class="flex flex-wrap gap-x-5 gap-y-1 mb-5">
+            <div v-for="p in service.prices" :key="p.unit" class="flex items-baseline gap-1">
+              <span class="text-xl font-bold text-primary-600">{{ p.amount }}</span>
+              <span class="text-sm text-gray-400">{{ p.unit }}</span>
+            </div>
+          </div>
+          <!-- Price: single -->
+          <div v-else class="flex items-baseline gap-1 mb-5">
             <span class="text-2xl font-bold text-primary-600">{{ service.price }}</span>
             <span class="text-sm text-gray-400">{{ service.unit }}</span>
           </div>
@@ -82,18 +89,20 @@ const services = [
   {
     icon: '🦮',
     title: 'Paseos individuales',
-    description: 'Salidas diarias adaptadas al ritmo y energía de tu perro. Rutas variadas para estimular mente y cuerpo.',
-    includes: ['Mínimo 45 minutos', 'Ruta personalizada', 'Fotos durante el paseo', 'Informe al finalizar'],
-    price: 'Desde 12€',
-    unit: '/ paseo',
+    description: 'Salidas adaptadas al ritmo y energía de tu perro. Rutas variadas para estimular mente y cuerpo.',
+    includes: ['Paseo de 30 min o 1h', 'Ruta personalizada', 'Fotos durante el paseo', 'Informe al finalizar'],
+    prices: [
+      { amount: 'Desde 8€', unit: '30 min' },
+      { amount: 'Desde 10€', unit: '1h' },
+    ],
     badge: 'Más popular',
   },
   {
     icon: '🏡',
-    title: 'Guardería a domicilio',
-    description: 'Tu perro se queda en mi casa con todo el amor y atención. Un ambiente familiar y seguro.',
+    title: 'Guardería de día',
+    description: 'Tu perro pasa el día en mi casa con todo el amor y atención. Un ambiente familiar y seguro.',
     includes: ['Ambiente familiar', 'Jardín seguro', 'Alimentación incluida', 'Actualizaciones diarias'],
-    price: 'Desde 30€',
+    price: 'Desde 20€',
     unit: '/ día',
   },
   {
@@ -101,7 +110,7 @@ const services = [
     title: 'Alojamiento nocturno',
     description: 'Para cuando necesitas ausentarte. Tu perro duerme conmigo en casa, sin jaulas y con todo el cariño.',
     includes: ['Cama propia', 'Sin jaulas nunca', 'Atención 24h', 'Check-in flexible'],
-    price: 'Desde 35€',
+    price: 'Desde 20€',
     unit: '/ noche',
   },
   {
@@ -109,17 +118,8 @@ const services = [
     title: 'Visitas a domicilio',
     description: 'Voy a tu casa a darle de comer, pasear y hacer compañía a tu perro sin que tenga que salir de su entorno.',
     includes: ['En tu casa', 'Hasta 1 hora', 'Alimentación e hidratación', 'Fotos y actualizaciones'],
-    price: 'Desde 15€',
-    unit: '/ visita',
-  },
-  {
-    icon: '🛁',
-    title: 'Baño y aseo',
-    description: 'Baño, secado, cepillado y corte de uñas para que tu perro esté siempre impecable y cómodo.',
-    includes: ['Baño con champú natural', 'Secado y cepillado', 'Corte de uñas', 'Limpieza de oídos'],
-    price: 'Desde 25€',
-    unit: '/ sesión',
-    badge: 'Nuevo',
+    price: 'Consultar',
+    unit: '· según ubicación',
   },
   {
     icon: '🎓',

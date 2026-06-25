@@ -257,9 +257,9 @@ const submitForm = async () => {
 }
 
 const contactInfo = [
-  { label: 'WhatsApp', value: '+34 600 000 000', href: 'https://wa.me/34600000000', icon: '📱' },
+  { label: 'WhatsApp', value: '+34 662 03 45 54', href: 'https://wa.me/34662034554', icon: '📱' },
   { label: 'Email', value: 'hola@rutaspeludas.es', href: 'mailto:hola@rutaspeludas.es', icon: '✉️' },
-  { label: 'Zona de trabajo', value: 'Madrid y alrededores', href: '#', icon: '📍' },
+  { label: 'Zona de trabajo', value: 'Valencia y alrededores', href: '#', icon: '📍' },
 ]
 
 const socials = [

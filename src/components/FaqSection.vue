@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: '¿Qué pasa si mi perro se pone enfermo?',
-    a: 'Tengo formación en primeros auxilios veterinarios y trabajo con una clínica veterinaria de confianza cercana. Te avisaré de inmediato ante cualquier señal de malestar y actuaré según tu autorización.',
+    a: 'Tengo formación en psicología canina y trabajo con una clínica veterinaria de confianza cercana. Te avisaré de inmediato ante cualquier señal de malestar y actuaré según tu autorización.',
   },
   {
     q: '¿Puedes cuidar perros que no han sido vacunados?',
